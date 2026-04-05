@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large model files (download separately)
+*.pt
+*.pth
+*.ckpt
+*.pb
+
+# LAMMPS temp files
+log.lammps
+*.dump
+*.restart
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Training artifacts
+trial_*/
+trial_cpu_*/
+trial_fixed_*/
+deepmd_training/
+
+# Temp/scratch files
+*.log
+tmp/

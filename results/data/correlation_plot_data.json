@@ -1,0 +1,300 @@
+{
+  "correlation_plots": {
+    "lattice_constant": {
+      "x_label": "DFT Lattice Constant (\u00c5)",
+      "y_label": "Predicted Lattice Constant (\u00c5)",
+      "points": [
+        {
+          "model": "MACE-MP-0",
+          "model_key": "MACE-MP-0",
+          "element": "Si",
+          "x": 5.469,
+          "y": 5.456278111642734
+        },
+        {
+          "model": "MACE-MP-0",
+          "model_key": "MACE-MP-0",
+          "element": "Ge",
+          "x": 5.763,
+          "y": 5.770141674770522
+        },
+        {
+          "model": "CHGNet",
+          "model_key": "CHGNet",
+          "element": "Si",
+          "x": 5.469,
+          "y": 5.474171640164726
+        },
+        {
+          "model": "CHGNet",
+          "model_key": "CHGNet",
+          "element": "Ge",
+          "x": 5.763,
+          "y": 5.767656473590393
+        },
+        {
+          "model": "DPA-3 (SemiCond)",
+          "model_key": "DPA-3-pretrained",
+          "element": "Si",
+          "x": 5.469,
+          "y": 5.483583931204011
+        },
+        {
+          "model": "DPA-3 (SemiCond)",
+          "model_key": "DPA-3-pretrained",
+          "element": "Ge",
+          "x": 5.763,
+          "y": 5.778407903478894
+        },
+        {
+          "model": "DeepMD (fine-tuned)",
+          "model_key": "DeepMD-finetuned",
+          "element": "Si",
+          "x": 5.469,
+          "y": 5.322469251078189
+        },
+        {
+          "model": "DeepMD (fine-tuned)",
+          "model_key": "DeepMD-finetuned",
+          "element": "Ge",
+          "x": 5.763,
+          "y": 5.6707966648434
+        },
+        {
+          "model": "Tersoff",
+          "model_key": "Tersoff",
+          "element": "Si",
+          "x": 5.469,
+          "y": 5.431335077824698
+        },
+        {
+          "model": "Tersoff",
+          "model_key": "Tersoff",
+          "element": "Ge",
+          "x": 5.763,
+          "y": 5.656863046977993
+        },
+        {
+          "model": "Stillinger-Weber",
+          "model_key": "SW",
+          "element": "Si",
+          "x": 5.469,
+          "y": 5.430851918679709
+        },
+        {
+          "model": "Stillinger-Weber",
+          "model_key": "SW",
+          "element": "Ge",
+          "x": 5.763,
+          "y": 5.6535244429898786
+        }
+      ]
+    },
+    "cohesive_energy": {
+      "x_label": "DFT Cohesive Energy (eV/atom)",
+      "y_label": "Predicted Energy (eV/atom)",
+      "points": [
+        {
+          "model": "MACE-MP-0",
+          "model_key": "MACE-MP-0",
+          "element": "Si",
+          "x": -5.43,
+          "y": -5.342040061950684
+        },
+        {
+          "model": "MACE-MP-0",
+          "model_key": "MACE-MP-0",
+          "element": "Ge",
+          "x": -4.62,
+          "y": -4.525815963745117
+        },
+        {
+          "model": "CHGNet",
+          "model_key": "CHGNet",
+          "element": "Si",
+          "x": -5.43,
+          "y": -5.313828945159912
+        },
+        {
+          "model": "CHGNet",
+          "model_key": "CHGNet",
+          "element": "Ge",
+          "x": -4.62,
+          "y": -4.4566850662231445
+        },
+        {
+          "model": "DeepMD (fine-tuned)",
+          "model_key": "DeepMD-finetuned",
+          "element": "Si",
+          "x": -5.43,
+          "y": -5.349466156986101
+        },
+        {
+          "model": "DeepMD (fine-tuned)",
+          "model_key": "DeepMD-finetuned",
+          "element": "Ge",
+          "x": -4.62,
+          "y": -4.58828436081164
+        },
+        {
+          "model": "Tersoff",
+          "model_key": "Tersoff",
+          "element": "Si",
+          "x": -5.43,
+          "y": -4.63041205
+        },
+        {
+          "model": "Tersoff",
+          "model_key": "Tersoff",
+          "element": "Ge",
+          "x": -4.62,
+          "y": -3.8505972
+        },
+        {
+          "model": "Stillinger-Weber",
+          "model_key": "SW",
+          "element": "Si",
+          "x": -5.43,
+          "y": -4.3366
+        },
+        {
+          "model": "Stillinger-Weber",
+          "model_key": "SW",
+          "element": "Ge",
+          "x": -4.62,
+          "y": -3.8600113
+        }
+      ]
+    },
+    "mean_max_force": {
+      "x_label": "Model",
+      "y_label": "Mean Max |Force| (eV/\u00c5)",
+      "points": [
+        {
+          "model": "MACE-MP-0",
+          "model_key": "MACE-MP-0",
+          "element": "Si",
+          "y": 1.7246468305587768,
+          "y_err": 1.9177152164125468
+        },
+        {
+          "model": "MACE-MP-0",
+          "model_key": "MACE-MP-0",
+          "element": "Ge",
+          "y": 1.0900266701976458,
+          "y_err": 1.2928041117913205
+        },
+        {
+          "model": "CHGNet",
+          "model_key": "CHGNet",
+          "element": "Si",
+          "y": 1.8311118319630624,
+          "y_err": 2.3205708478035887
+        },
+        {
+          "model": "CHGNet",
+          "model_key": "CHGNet",
+          "element": "Ge",
+          "y": 1.4050191074609757,
+          "y_err": 1.734765555423901
+        },
+        {
+          "model": "DPA-3 (SemiCond)",
+          "model_key": "DPA-3-pretrained",
+          "element": "Si",
+          "y": 2.293813790043472,
+          "y_err": 2.022795331774164
+        },
+        {
+          "model": "DPA-3 (SemiCond)",
+          "model_key": "DPA-3-pretrained",
+          "element": "Ge",
+          "y": 1.9724212278220563,
+          "y_err": 1.6897262882140478
+        },
+        {
+          "model": "DeepMD (fine-tuned)",
+          "model_key": "DeepMD-finetuned",
+          "element": "Si",
+          "y": 1.6934639169392935,
+          "y_err": 1.9251093909773327
+        },
+        {
+          "model": "DeepMD (fine-tuned)",
+          "model_key": "DeepMD-finetuned",
+          "element": "Ge",
+          "y": 1.1215636505923838,
+          "y_err": 1.2212217526411517
+        },
+        {
+          "model": "Tersoff",
+          "model_key": "Tersoff",
+          "element": "Si",
+          "y": 3.4060915990189664,
+          "y_err": 5.2443597675851255
+        },
+        {
+          "model": "Tersoff",
+          "model_key": "Tersoff",
+          "element": "Ge",
+          "y": 3.1550700823171667,
+          "y_err": 3.5265648582972324
+        },
+        {
+          "model": "Stillinger-Weber",
+          "model_key": "SW",
+          "element": "Si",
+          "y": 3.3541885260825004,
+          "y_err": 2.968583935987541
+        },
+        {
+          "model": "Stillinger-Weber",
+          "model_key": "SW",
+          "element": "Ge",
+          "y": 3.0202326102771,
+          "y_err": 2.529549572670025
+        }
+      ]
+    }
+  },
+  "ground_truth": {
+    "Si": {
+      "dft_a": 5.469,
+      "exp_a": 5.431,
+      "dft_e": -5.43,
+      "exp_e": -4.63
+    },
+    "Ge": {
+      "dft_a": 5.763,
+      "exp_a": 5.658,
+      "dft_e": -4.62,
+      "exp_e": -3.85
+    }
+  },
+  "model_display_names": {
+    "MACE-MP-0": "MACE-MP-0",
+    "CHGNet": "CHGNet",
+    "DPA-3-pretrained": "DPA-3 (SemiCond)",
+    "DeepMD-finetuned": "DeepMD (fine-tuned)",
+    "Tersoff": "Tersoff",
+    "SW": "Stillinger-Weber"
+  },
+  "colors": {
+    "MACE-MP-0": "#E63946",
+    "CHGNet": "#457B9D",
+    "DPA-3-pretrained": "#9B59B6",
+    "DeepMD-finetuned": "#E67E22",
+    "Tersoff": "#8B7355",
+    "SW": "#708090"
+  },
+  "markers_desc": {
+    "MACE-MP-0": "circle (o)",
+    "CHGNet": "square (s)",
+    "DPA-3-pretrained": "diamond (D)",
+    "DeepMD-finetuned": "triangle-up (^)",
+    "Tersoff": "triangle-down (v)",
+    "SW": "plus-filled (P)"
+  },
+  "note_si_ge": "Si points are filled, Ge points are open (face=white)",
+  "note_dpa3_energy": "DPA-3 energy (~-107 eV) excluded from energy parity due to different reference"
+}

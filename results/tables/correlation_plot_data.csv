@@ -1,0 +1,35 @@
+Property,Model,Element,GT_Value,Predicted_Value,StdDev
+lattice_constant,MACE-MP-0,Si,5.469,5.456278111642734,
+lattice_constant,MACE-MP-0,Ge,5.763,5.770141674770522,
+lattice_constant,CHGNet,Si,5.469,5.474171640164726,
+lattice_constant,CHGNet,Ge,5.763,5.767656473590393,
+lattice_constant,DPA-3 (SemiCond),Si,5.469,5.483583931204011,
+lattice_constant,DPA-3 (SemiCond),Ge,5.763,5.778407903478894,
+lattice_constant,DeepMD (fine-tuned),Si,5.469,5.322469251078189,
+lattice_constant,DeepMD (fine-tuned),Ge,5.763,5.6707966648434,
+lattice_constant,Tersoff,Si,5.469,5.431335077824698,
+lattice_constant,Tersoff,Ge,5.763,5.656863046977993,
+lattice_constant,Stillinger-Weber,Si,5.469,5.430851918679709,
+lattice_constant,Stillinger-Weber,Ge,5.763,5.6535244429898786,
+cohesive_energy,MACE-MP-0,Si,-5.43,-5.342040061950684,
+cohesive_energy,MACE-MP-0,Ge,-4.62,-4.525815963745117,
+cohesive_energy,CHGNet,Si,-5.43,-5.313828945159912,
+cohesive_energy,CHGNet,Ge,-4.62,-4.4566850662231445,
+cohesive_energy,DeepMD (fine-tuned),Si,-5.43,-5.349466156986101,
+cohesive_energy,DeepMD (fine-tuned),Ge,-4.62,-4.58828436081164,
+cohesive_energy,Tersoff,Si,-5.43,-4.63041205,
+cohesive_energy,Tersoff,Ge,-4.62,-3.8505972,
+cohesive_energy,Stillinger-Weber,Si,-5.43,-4.3366,
+cohesive_energy,Stillinger-Weber,Ge,-4.62,-3.8600113,
+mean_max_force,MACE-MP-0,Si,,1.7246468305587768,1.9177152164125468
+mean_max_force,MACE-MP-0,Ge,,1.0900266701976458,1.2928041117913205
+mean_max_force,CHGNet,Si,,1.8311118319630624,2.3205708478035887
+mean_max_force,CHGNet,Ge,,1.4050191074609757,1.734765555423901
+mean_max_force,DPA-3 (SemiCond),Si,,2.293813790043472,2.022795331774164
+mean_max_force,DPA-3 (SemiCond),Ge,,1.9724212278220563,1.6897262882140478
+mean_max_force,DeepMD (fine-tuned),Si,,1.6934639169392935,1.9251093909773327
+mean_max_force,DeepMD (fine-tuned),Ge,,1.1215636505923838,1.2212217526411517
+mean_max_force,Tersoff,Si,,3.4060915990189664,5.2443597675851255
+mean_max_force,Tersoff,Ge,,3.1550700823171667,3.5265648582972324
+mean_max_force,Stillinger-Weber,Si,,3.3541885260825004,2.968583935987541
+mean_max_force,Stillinger-Weber,Ge,,3.0202326102771,2.529549572670025

@@ -1,0 +1,26 @@
+# Core scientific computing
+numpy>=1.24.0
+scipy>=1.10.0
+matplotlib>=3.7.0
+
+# Atomic Simulation Environment
+ase>=3.22.0
+
+# Machine Learning Interatomic Potentials
+mace-torch>=0.3.0
+chgnet>=0.3.0
+deepmd-kit>=3.0.0
+
+# Classical potentials (via LAMMPS)
+# LAMMPS must be installed separately with MANYBODY package
+# See: https://docs.lammps.org/Build.html
+
+# Hyperparameter optimization
+optuna>=3.0.0
+
+# Data handling
+pandas>=1.5.0
+json5>=0.9.0
+
+# Utilities
+tqdm>=4.64.0
