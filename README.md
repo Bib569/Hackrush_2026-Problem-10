@@ -134,7 +134,7 @@ The full problem statement PDF is available in [`docs/`](./docs/).
 
 ---
 
-## 📈 Publication-Quality Figures
+## 📈 Figures
 
 All figures generated at 300 DPI with STIX serif fonts, bold axis labels, and 2.5 pt frame spines. Available in both PDF (vector) and PNG (raster) formats.
 
@@ -253,8 +253,7 @@ Hackrush_2026-Problem-10/
 │
 ├── docs/                              # 📄 Documents & Reports
 │   ├── Problem_statement_hackrush_2026_Problem-10.pdf
-│   ├── Hackrush_2026_Problem_10_Report.pdf
-│   └── checkpoint1_writeup.md         # Checkpoint 1: Literature review
+│   └── Hackrush_2026_Problem_10_Report.pdf
 │
 ├── figures/                           # 📊 Publication-quality figures
 │   ├── fig1_lattice_parity.pdf/.png   # Lattice constant parity plot
@@ -446,7 +445,7 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 <div align="center">
 
-**Made with ⚛️ for Hackrush 2026**
+**Made for Hackrush 2026**
 
 *Benchmarking the future of atomistic simulation*
 
