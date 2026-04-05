@@ -60,7 +60,7 @@ Molecular Dynamics (MD) simulations require interatomic potentials to define the
 3. Identify the best MLIP for Si and Ge
 4. Demonstrate training/fine-tuning of MLIPs using HPO
 
-The full problem statement PDF is available in [`Problem_statement_and_Report/`](./Problem_statement_and_Report/).
+The full problem statement PDF is available in [`docs/`](./docs/).
 
 ---
 
@@ -251,9 +251,10 @@ Hackrush_2026-Problem-10/
 ├── requirements.txt                   # Python dependencies
 ├── .gitignore                         # Git ignore rules
 │
-├── Problem_statement_and_Report/      # 📄 Official documents
+├── docs/                              # 📄 Documents & Reports
 │   ├── Problem_statement_hackrush_2026_Problem-10.pdf
-│   └── Hackrush_2026_Problem_10_Report.pdf
+│   ├── Hackrush_2026_Problem_10_Report.pdf
+│   └── checkpoint1_writeup.md         # Checkpoint 1: Literature review
 │
 ├── figures/                           # 📊 Publication-quality figures
 │   ├── fig1_lattice_parity.pdf/.png   # Lattice constant parity plot
@@ -292,15 +293,12 @@ Hackrush_2026-Problem-10/
 │       ├── dpa_proper_extract.py      # DPA-3 head extraction
 │       └── extract_dpa_head.py        # DPA-2 head extraction
 │
-├── potentials/                        # ⚙️ Potential parameter files
-│   └── classical/
-│       ├── Si.tersoff                 # Tersoff params for Si
-│       ├── SiCGe.tersoff              # Tersoff params for Si-C-Ge
-│       ├── Si.sw                      # Stillinger-Weber params for Si
-│       └── Ge.sw                      # Stillinger-Weber params for Ge
-│
-└── docs/                              # 📚 Documentation
-    └── checkpoint1_writeup.md         # Checkpoint 1: Literature review
+└── potentials/                        # ⚙️ Potential parameter files
+    └── classical/
+        ├── Si.tersoff                 # Tersoff params for Si
+        ├── SiCGe.tersoff              # Tersoff params for Si-C-Ge
+        ├── Si.sw                      # Stillinger-Weber params for Si
+        └── Ge.sw                      # Stillinger-Weber params for Ge
 ```
 
 ---
@@ -412,10 +410,10 @@ Primitive cells were fully relaxed using the **ExpCellFilter + BFGS optimizer** 
 
 ## 📄 Report
 
-The complete scientific report is available in the [`Problem_statement_and_Report/`](./Problem_statement_and_Report/) directory:
+The complete scientific report is available in the [`docs/`](./docs/) directory:
 
-- 📄 **[Problem Statement](./Problem_statement_and_Report/Problem_statement_hackrush_2026_Problem-10.pdf)** — Original Hackrush 2026 Problem 10 specification
-- 📄 **[Full Report](./Problem_statement_and_Report/Hackrush_2026_Problem_10_Report.pdf)** — Comprehensive benchmark report with methodology, results, and analysis
+- 📄 **[Problem Statement](./docs/Problem_statement_hackrush_2026_Problem-10.pdf)** — Original Hackrush 2026 Problem 10 specification
+- 📄 **[Full Report](./docs/Hackrush_2026_Problem_10_Report.pdf)** — Comprehensive benchmark report with methodology, results, and analysis
 
 The report covers:
 - ✅ **Checkpoint 1:** Understanding of MD, interatomic potentials, and MLIPs with literature review (20 references)
